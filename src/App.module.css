@@ -1,0 +1,60 @@
+*{
+  font-size: 1.125rem;
+  font-family: Helvetica, sans-serif;
+  color: #fff;
+}
+
+body{
+  margin: 0;
+  min-height: 100vh;
+  background-color:#000612;
+
+  /* Background */
+  background-image: url('./assets/bg-lines.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: center; */
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+.container{
+  max-width: max-content;
+  text-align: start;
+  margin: 0 auto;
+  padding: 20px;
+}
+.header{
+  margin-top: 3rem;
+}
+.header nav a{
+  padding: 8px;
+}
+.header nav a:hover{
+  color: #eeeeee;
+}
+.header nav p:first-child{
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.header nav a+a{
+  margin-left: 12px;
+}
+.content{
+  margin-top: 5rem;
+  max-width: 60ch;
+}
+.content p+p{
+  margin-top: 3rem;
+}
+
+/* Estilos para telas maiores ou iguais a 768px de largura (por exemplo, tablets e desktops) */
+@media (min-width: 768px) {
+  
+}
+
+/* Estilos para telas menores que 768px de largura (por exemplo, telefones) */
+@media (max-width: 767px) {
+  
+}
