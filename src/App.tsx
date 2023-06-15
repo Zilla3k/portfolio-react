@@ -17,7 +17,7 @@ function App() {
           rel="noopener noreferrer">
             LinkedIn
           </a>
-          <a href="mailto:henriquepelanda.web@gmail.com">
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=henriquepelanda.web@gamail.com&su=Portfolio&body=(Sua%20mensagem)" target='_blank' rel="noreferrer">
             Contato
           </a>
         </nav>
